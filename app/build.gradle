@@ -16,7 +16,7 @@ def getProps(path) {
 
 android {
     signingConfigs {
-/*        release {
+        release {
             storeFile file('G:\\projects\\CICDCDSimulation\\release.jks')
             storePassword '123456'
             keyAlias 'key0'
@@ -27,7 +27,7 @@ android {
             storePassword '123456'
             keyAlias 'key0'
             keyPassword '123456'
-        }*/
+        }
     }
     compileSdk 31
     buildToolsVersion "31.0.0"
